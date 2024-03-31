@@ -15,7 +15,7 @@ public class TestBMI {
 		double bmi = weight / (height * height);
 
 		System.out.println("BMI = " + bmi);
-		System.out.printf("BMI = %.2f%n", bmi);
+		System.out.printf("BMI = %.2f%n", bmi); //%n表示換行
 
 //條件判斷第一版		
 		if (bmi < 18.5) {
