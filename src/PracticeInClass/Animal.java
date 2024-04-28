@@ -16,7 +16,7 @@ public class Animal {
 		this.weight = weight;
 	}
 
-	public void speak() {
+	public void speak() { //speak方法
 		System.out.println("Age is " + age);// 實體變數的age
 		System.out.println("Weight is " + weight); // 實體變數的weight
 	}

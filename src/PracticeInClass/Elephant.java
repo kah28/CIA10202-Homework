@@ -24,9 +24,9 @@ public class Elephant extends Animal {
 	
 	//JDK 5新增的功能: Annotation(標註)@:給Java相關工具或是框架看的資訊
 	
-	@Override  //讓編譯器對此方法是以override規則去檢查，只要一有違反規則，就會編譯失敗
-	public void speak() {
-		super.speak();
-		System.out.println("Name is ") + name);
-	}
+//	@Override  //讓編譯器對此方法是以override規則去檢查，只要一有違反規則，就會編譯失敗
+//	public void speak() {
+//		super.speak();
+//		System.out.println("Name is ") + name);
+//	}
 }
